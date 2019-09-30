@@ -1,0 +1,255 @@
+:root {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* headings font property */
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 80;
+    font-family: Lato
+}
+
+p {
+    font-family: roboto;
+}
+
+a {
+    text-decoration: none
+}
+
+
+/* End of text styles */
+
+
+/* nav start  */
+
+.nav-item {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.nav-link {
+    font-family: 'Segoe UI';
+    color: #0177b7;
+}
+
+nav {
+    margin: 10px 100px;
+}
+
+
+/* nav end  */
+
+
+/* jumbo section  */
+
+#top {
+    padding: 50px 30px 200px 30px;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+.jumbo>h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    color: #534d4d;
+}
+
+.jumbo>p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #534d4d;
+}
+
+.wave {
+    font-size: 23px;
+    font-family: Poppins;
+    line-height: 8px;
+    font-weight: normal;
+    min-width: 250px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 38px;
+}
+
+.wave::before {
+    content: url(../img/waving-hand.svg);
+    /* margin: auto 5px */
+}
+
+.people {
+    padding: 0;
+}
+
+
+/* end of jumbo section  */
+
+
+/* service */
+
+#service {
+    min-height: 300px;
+    background-color: #fbfcfd;
+    padding: 50px 100px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+#service>h2 {
+    color: #0177b7;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+#service>h3 {
+    color: #5a5454;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 80px;
+}
+
+#service>p {
+    color: #747474;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.service-blurb {
+    /* margin: 70px 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 */
+}
+
+.blurbs {
+    width: 70%;
+    height: 350px;
+    padding: 50px 5px 20px 5px;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.blurbs object {
+    width: 80px;
+    height: 80px;
+    margin: 0
+}
+
+.blurbs h3 {
+    /* margin-top: 48px; */
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 54px;
+}
+
+.blurbs p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Lato;
+    line-height: 26px;
+}
+
+.blurbs a {
+    color: #fff;
+}
+
+.read {
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px #fff solid;
+    border-radius: 23px;
+    padding: 5px 15px;
+    margin-top: 30px;
+    line-height: 60px;
+}
+
+.branding {
+    background-image: linear-gradient(180deg, #0177b7, #2293b7);
+}
+
+.ui {
+    background-image: linear-gradient(180deg, #41a548, #80d64f);
+}
+
+.web-design {
+    background-image: linear-gradient(180deg, #fadb00, #76d913);
+}
+
+.video-ani {
+    background-image: linear-gradient(180deg, #e2378e, #64385b);
+}
+
+.blank {
+    background-image: linear-gradient(180deg, #ff8088, #984141);
+}
+
+
+/* end of Service  */
+
+
+/* start of video section  */
+
+#craviti-intro {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+#craviti-intro>.craviti-video {
+    background-color: #0177B7;
+    border: solid #707070;
+    border-radius: 40px;
+    border-width: 1px;
+    width: 450px;
+    height: 230px;
+    float: right;
+}
+
+.intro-desc {
+    margin: auto 30px;
+    width: 398px
+}
+
+.intro-desc>h2 {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: justify;
+    color: #5a5454;
+}
+
+.intro-desc>p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #747474;
+}
+
+.intro-desc a {
+    color: #0177B7;
+}
+
+
+/* End of video section  */
