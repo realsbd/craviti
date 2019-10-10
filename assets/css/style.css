@@ -486,3 +486,51 @@ p.testimonial-desc {
 
 
 /* En of Testimonial  */
+
+
+/* Blog section begin */
+
+#blog {
+    margin: 0;
+    padding: 0;
+}
+
+.blog {
+    margin: 0;
+    padding: 50px 100px;
+}
+
+.blog-head {
+    text-align: center;
+    color: #534d4d
+}
+
+.blog-content {
+    margin: 50px auto;
+    padding: 0 50px;
+    box-sizing: content-box;
+}
+
+.blog-inner {
+    padding: 0;
+}
+
+.blog-post {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0 40px 40px #c5c3f9;
+}
+
+.blog-post img {
+    width: 100%;
+    height: 200px;
+}
+
+.blog-text {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+
+/* blog section ends  */
