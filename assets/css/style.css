@@ -282,10 +282,11 @@ nav {
     margin: 5px 20px 0 0;
 }
 
-.filter-class {
-    /* min-width: 300px;
-    margin: 5px 20px 0 0; */
-}
+
+/* .filter-class {
+    min-width: 300px;
+    margin: 5px 20px 0 0;
+} */
 
 .port-nav {
     font-size: 18px;
@@ -493,6 +494,7 @@ p.testimonial-desc {
 #blog {
     margin: 0;
     padding: 0;
+    background-color: #fbfcfd;
 }
 
 .blog {
@@ -532,5 +534,31 @@ p.testimonial-desc {
     padding: 10px 20px;
 }
 
+.brands-client {
+    margin: 30px auto;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.brand-client img {
+    margin: 10px auto;
+}
+
 
 /* blog section ends  */
+
+
+/* footer sections  */
+
+.footer-sec {
+    display: grid;
+    padding-left: 20px;
+}
+
+.footer-bottom {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+
+/* footer section Ends */
