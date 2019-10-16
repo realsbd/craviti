@@ -643,11 +643,31 @@ p.testimonial-desc {
 .footer-sec {
     display: grid;
     padding-left: 20px;
+    font-family: 'roboto';
 }
-
+.footer-sec img{
+    margin-bottom: 46px;
+}
+.footer-sec div i{
+    margin-right: 13px;
+    height: 43px;
+    width: 43px;
+    font-size: 43px;
+    color: #0A315A;
+}
+.footer-sec p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #747474;
+}
 .footer-bottom {
     padding-bottom: 30px;
     padding-top: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'roboto';
+    line-height: 28px;
 }
 
 
