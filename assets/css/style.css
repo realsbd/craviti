@@ -33,6 +33,10 @@ a:hover {
     text-decoration: none;
 }
 
+/* section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
 
 /* End of text styles */
 
@@ -63,6 +67,7 @@ nav {
 .container-fluid {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 30px 0;
 }
 
 #top {
@@ -96,10 +101,10 @@ nav {
     border-radius: 38px;
 }
 
-.wave::before {
+/* .wave::before {
     content: url(../img/waving-hand.svg);
-    /* margin: auto 5px */
-}
+    margin: auto 5px
+} */
 
 .people {
     padding: 0;
@@ -119,7 +124,7 @@ nav {
     padding-bottom: 0;
 }
 
-#service>h2 {
+.service>h2 {
     color: #0177b7;
     font-size: 20px;
     font-weight: 700;
@@ -128,7 +133,7 @@ nav {
     line-height: 80px;
 }
 
-#service>h3 {
+.service>h3 {
     color: #5a5454;
     font-size: 40px;
     text-align: center;
@@ -136,7 +141,7 @@ nav {
     line-height: 80px;
 }
 
-#service>p {
+.service>p {
     color: #747474;
     font-size: 18px;
     text-align: center;
@@ -221,13 +226,10 @@ nav {
 
 #craviti-intro {
     margin: 0 auto;
-    padding: 0;
-    display: flex;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding: 50px 0;
 }
 
-#craviti-intro>.craviti-video {
+.craviti-video {
     background-color: #0177B7;
     border: solid #707070;
     border-radius: 40px;
@@ -238,8 +240,7 @@ nav {
 }
 
 .intro-desc {
-    margin: auto 30px;
-    width: 398px
+    width: 100%;
 }
 
 .intro-desc>h2 {
@@ -446,6 +447,10 @@ p.success-desc {
     color: #fff;
 }
 
+.testimonial-foot{
+    text-align: left;
+}
+
 h2.testimonial-head {
     font-family: Lato;
     font-size: 40px;
@@ -470,10 +475,8 @@ p.testimonial-desc {
     width: 180px;
     height: 180px;
     background-color: #666;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
 
@@ -490,21 +493,21 @@ p.testimonial-desc {
 
 
 /* start oF work flow */
-.workflow{
+#workflow{
     padding-top: 111px;
     background-color: #FBFCFD;
     width: 100%;
 }
-.w1 {
+/* .w1 {
     padding: 40px 20px 20px 60px;
-}
+} */
 .w1 img {
     width: 100%;
 }
-.w2 {
+/* .w2 {
     padding: 40px 0 0 80px;
     
-}
+} */
 .w2 div h3{
     font-size: 22px;
     font-weight: bold;
@@ -549,7 +552,6 @@ p.testimonial-desc {
     font-size: 20px;
     font-weight: normal;
     line-height: 55px;
-    
     margin-right: 28px;
 }
 .box1 .circle {
