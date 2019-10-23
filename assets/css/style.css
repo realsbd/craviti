@@ -225,6 +225,7 @@ nav {
     display: flex;
     padding-right: 150px;
     padding-left: 150px;
+    align-content: center;
 }
 
 #craviti-intro>.craviti-video {
@@ -587,14 +588,25 @@ p.testimonial-desc {
     background-color: #fbfcfd;
 }
 
-.blog {
-    margin: 0;
+#blog {
+    margin: 134px 0 0 0;
     padding: 50px 100px;
+    
 }
 
 .blog-head {
     text-align: center;
     color: #534d4d
+}
+.blog-head p{
+    width: 531px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'roboto';
+    color: #747474;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 .blog-content {
@@ -628,10 +640,13 @@ p.testimonial-desc {
     margin: 30px auto;
     display: flex;
     margin-bottom: 60px;
-}
+    margin-left: 3  0px;
 
-.brand-client img {
+}8
+
+.brands-client img {
     margin: 10px auto;
+    padding-right:30px;
 }
 
 
@@ -639,7 +654,10 @@ p.testimonial-desc {
 
 
 /* footer sections  */
-
+footer{
+    margin-top: 164px;
+    background-color: #FFFFFF;
+}
 .footer-sec {
     display: grid;
     padding-left: 20px;
