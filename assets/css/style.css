@@ -88,7 +88,7 @@ a:hover {
     font-weight: normal;
     height: 50px;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 117px;
 }
 
 .top-right {
@@ -457,6 +457,8 @@ p.testimonial-desc {
 
 
 /* start oF work flow */
+.workflow
+
 #workflow{
     /* padding-top: 111px; */
     background-color: #FBFCFD;
@@ -508,7 +510,7 @@ p.testimonial-desc {
     color: #fff;
     font-size: 20px;
     font-weight: normal;
-    line-height: 55px;
+    line-height: 59px;
 }
 .box1 .circle {
     background-color: #0177B7;
