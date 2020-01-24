@@ -13,7 +13,7 @@
 /* headings font property */
 
 h1,
-h2,
+h2,f
 h3,
 h4 {
     letter-spacing: 80;
@@ -51,12 +51,57 @@ a:hover {
 
 .nav-link {
     font-family: 'Segoe UI';
-    color: #0177b7;
+    color: 
+    #a26565;
 }
 
 
 /* nav end  */
 
+/* Nav animation */
+.nav-animation .nav-item {
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.nav-animation .nav-item .nav-link {
+    position: relative;
+    display: block; 
+    padding: 5px;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    /* background: #baf; */
+}
+.nav-animation:hover .nav-item .nav-link{
+     transform: scale(.8);
+     opacity: 1;
+     /* filter: blur(.6px); */
+}
+.nav-animation .nav-item .nav-link:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    filter: blur(0);
+    color: #fff;
+}
+ .nav-animation .nav-item .nav-link:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#76f;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+.nav-animation .nav-item .nav-link:hover:before{
+     transition: transform 0.5s;
+     transform-origin: top;
+     transform: scaleX(1);
+} 
+
+/* end of nav styling*/
 
 /* jumbo section  */
 
@@ -546,9 +591,8 @@ p.testimonial-desc {
 }
 
 /* #blog {
-    /* margin: 134px 0 0 0; */
+    margin: 134px 0 0 0;
     padding: 50px 100px;
-    
 } */
 
 .blog-head {
@@ -809,6 +853,6 @@ footer{
         padding-left: 60px;
         padding-right: 60px;
     }
- }
+}
 
 /* all media queries  */
